@@ -1,0 +1,15 @@
+{
+  "name": "conceitos-spa",
+  "version": "1.0.0",
+  "description": "Trilha Explorer | Stage 6 - Conceitos SPA | Rocketseat",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
