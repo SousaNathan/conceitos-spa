@@ -14,25 +14,5 @@
   </nav>
   <div id="app"></div>
 </body>
-<script>
-  const routes = {
-    "/": "pages/home.html",
-    "/about": "pages/about.html",
-    "/contact": "pages/contact.html",
-    404: "pages/404.html"
-  }
-
-  const route = (event) => {
-    event = event || window.event
-    event.preventDefault()
-
-    window.history.pushState({}, '', event.target.href)
-    
-    handle()
-  }
-
-  const handle = () => {
-    const { pathname } = window.location
-  }
-</script>
+<script src="src/index.js" type="module"></script>
 </html>
